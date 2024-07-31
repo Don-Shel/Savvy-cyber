@@ -44,7 +44,10 @@ header{
     backdrop-filter: blur(10px);
  
 }
-
+@media (max-width: 768px){
+    .navbar{
+        max-width: 80%;
+}
 .navbar .logo a{
     font-size: 1.5rem;
     font-weight: bold;
@@ -280,6 +283,11 @@ button:visited{
     justify-content: center;
     align-items: center;
   }
+  @media (max-width: 768px){
+      .flex{
+          display: flex;
+          flex-drirection: column;
+  }  
   .founder-img h2{
     text-align: center;
     color: #000;
@@ -530,6 +538,10 @@ button:visited{
   border-radius: 10px;
   padding: .7rem;
 }
+@media (max-width: 768px){
+    .contact{
+        height: 80dvh;
+}      
 
 .contact h2, h3{
   display: flex;
