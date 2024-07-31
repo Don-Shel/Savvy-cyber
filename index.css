@@ -288,8 +288,12 @@ button:visited{
       .flex{
           display: inline;
           flex-drirection: column;
-          gap: .6rem;
-  }  
+          gap: 1.6rem;
+          justify-content: center;
+         align-items: center;
+      }  
+      
+  }    
   .founder-img h2{
     text-align: center;
     color: #000;
@@ -500,8 +504,7 @@ button:visited{
   }
   @media (max-width: 765px) {
     .testimonial-grid{
-      grid-template-columns: repeat(2, 1fr);
-      
+      grid-template-columns: repeat(1, 1fr);  
     }
   }
   
@@ -538,11 +541,7 @@ button:visited{
   background-color: #2297ce;
   border-radius: 10px;
   padding: .7rem;
-}
-@media (max-width: 768px){
-    .contact{
-        height: 80dvh;
-}      
+}   
 
 .contact h2, h3{
   display: flex;
@@ -564,9 +563,6 @@ button:visited{
 @media (max-width: 765px) {
   .contact-form{
     margin: 0.3rem 0.4rem 2rem 0.4rem;
-  }
-  .contact{
-    height: 110dvh;
   }
 }
 
