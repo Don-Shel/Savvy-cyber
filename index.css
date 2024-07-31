@@ -97,7 +97,7 @@ header{
 .dropdown_menu{
     display: none;
     position: absolute;
-    right: 2rem;
+    right: 4rem;
     top: 60px;
     height: 0;
     width: 300px;
@@ -283,10 +283,11 @@ button:visited{
     justify-content: center;
     align-items: center;
   }
-  @media (max-width: 768px){
+  @media (max-width: 765px){
       .flex{
           display: flex;
           flex-drirection: column;
+          gap: .3rem;
   }  
   .founder-img h2{
     text-align: center;
