@@ -145,11 +145,10 @@ header{
     body{
         margin: 0;
         padding-right: 0;
-        max-width: 100%;
+        max-width: 90%;
     }
     .navbar{
-        width: 80%;
-        max-width: 79%;
+        width: 50%;
     }    
 }
 
