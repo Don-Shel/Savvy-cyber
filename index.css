@@ -270,11 +270,9 @@ button:visited{
   }
   @media (max-width: 768px){
       .flex{
-          display: inline;
-          flex-drirection: column;
-          gap: 2.5rem;
-          justify-content: center;
-          align-items: center;
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
       }  
   }    
   .founder-img h2{
