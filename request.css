@@ -10,11 +10,11 @@ body{
     background-position: center;
     background-size: cover;
 }
-@media (max-widht: 768px0{
+@media (max-widht: 768px){
     .body{
         height: 100dvh;
+    }
 }
-
 li{
     list-style: none;
 }
