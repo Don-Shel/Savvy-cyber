@@ -141,16 +141,11 @@ header{
         display: block;
     }
 }
-/*@media (max-width: 768px){
-    .navbar{
-         max-width: 80%;
+@media (max-width: 768px){
+   article{
+      width: 100%;
     }
-    body{
-        overflow-x: hidden;
-         max-width: fit-content;
-        width: 80%;
-    }
-}*/
+}
 
 @media (max-width: 576px){
     .dropdown_menu{
