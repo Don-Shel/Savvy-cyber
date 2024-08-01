@@ -6,6 +6,7 @@
 }
 body{
     background-color: #3d5a80;
+    max-width: 100%;
 }
 
 li{
@@ -146,7 +147,7 @@ header{
     }
     body{
         overflow-x: hidden;
-        width: 80%;
+    }
 }
 
 @media (max-width: 576px){
