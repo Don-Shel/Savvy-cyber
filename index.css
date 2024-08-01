@@ -6,7 +6,7 @@
 }
 body{
     background-color: #3d5a80;
-    max-width: 120%;
+    max-width: 130%;
     overflow-x: hidden;
 }
 
@@ -146,6 +146,11 @@ header{
       width: 140%;
        position: relative;
        overflow-x: hidden;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        width: 120%;
     }
 }
 
