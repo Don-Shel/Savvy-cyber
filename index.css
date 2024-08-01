@@ -148,6 +148,7 @@ header{
     body{
         overflow-x: hidden;
          max-width: fit-content;
+        scale: 1.2;
     }
 }
 
