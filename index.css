@@ -147,6 +147,10 @@ header{
         padding-right: 0;
         max-width: 100%;
     }
+    .navbar{
+        width: 80%;
+        max-width: 79%;
+    }    
 }
 
 @media (max-width: 576px){
