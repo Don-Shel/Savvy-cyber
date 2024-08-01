@@ -142,11 +142,11 @@ header{
     }
 }
 @media (max-width: 768px){
-   article, main, footer{
+   /*article, main, footer{
       width: 90%;
        position: relative;
        overflow-x: hidden;
-    }
+    }*/
     body{
         margin: 0;
         padding: 0;
