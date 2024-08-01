@@ -6,7 +6,7 @@
 }
 body{
     background-color: #3d5a80;
-    max-width: 130%;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -142,8 +142,8 @@ header{
     }
 }
 @media (max-width: 768px){
-   article{
-      width: 120%;
+   article, main, footer{
+      width: 90%;
        position: relative;
        overflow-x: hidden;
     }
