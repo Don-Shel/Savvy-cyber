@@ -147,6 +147,7 @@ header{
     }
     body{
         overflow-x: hidden;
+        max-width: 80%;
     }
 }
 
