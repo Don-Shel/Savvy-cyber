@@ -159,7 +159,7 @@ header{
 
 @media (max-width: 776px){
     .dropdown_menu{
-        left: 4rem;
+        left: -2rem;
         width: unset;
     }
 }
@@ -288,11 +288,10 @@ button:visited{
       .flex{
           display: inline;
           flex-drirection: column;
-          gap: 1.6rem;
+          gap: 2.5rem;
           justify-content: center;
-         align-items: center;
+          align-items: center;
       }  
-      
   }    
   .founder-img h2{
     text-align: center;
