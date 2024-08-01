@@ -33,6 +33,8 @@ header{
     z-index: 100;
 }
 .navbar{
+    position: fixed;
+    top: -.5rem;
     position: absolute;
     width: 100%;
     height: 60px;
@@ -43,12 +45,8 @@ header{
     justify-content: space-between;
     position: fixed;
     backdrop-filter: blur(10px);
- 
 }
-@media (max-width: 768px){
-    .navbar{
-        max-width: 80%;
-}
+
 .navbar .logo a{
     font-size: 1.5rem;
     font-weight: bold;
@@ -57,15 +55,6 @@ header{
 .navbar .links{
     display: flex;
     gap: 2rem;
-}
-
-
-.links li:hover{
-  text-decoration: underline;
-  background-color: #f5a20a;
-  padding: 0.2rem 1rem;
-  border-radius: 35px;
-  font-weight: bold;
 }
 .navbar .toggle_btn{
     color: #fff;
@@ -87,7 +76,7 @@ header{
 }
 
 .action_btn:hover{
-    color: rgb(197, 32, 32);
+    color: black;
     scale: 1.02;
 }
 
@@ -98,7 +87,7 @@ header{
 .dropdown_menu{
     display: none;
     position: absolute;
-    right: 4rem;
+    right: 2rem;
     top: 60px;
     height: 0;
     width: 300px;
@@ -111,7 +100,7 @@ header{
 }
 
 .dropdown_menu.open{
-    height: 245px;
+    height: 70px;
 }
 
 .dropdown_menu li{
@@ -128,11 +117,7 @@ header{
 }
 
 .dropdown_menu a:hover{
-    color: #270501;
-    background-color: #f5a20a;
-    padding: 0.5rem 1rem;
-    border-radius: 35px;
-    font-weight: bold;
+    color: #3a0503;
 }
 
 .dropdown_menu .action_btn{
@@ -157,13 +142,12 @@ header{
     }
 }
 
-@media (max-width: 776px){
+@media (max-width: 576px){
     .dropdown_menu{
-        left: -2rem;
+        left: 2rem;
         width: unset;
     }
 }
-
 .hero h1 {
     font-size: 36px;
     margin-bottom: 10px;
