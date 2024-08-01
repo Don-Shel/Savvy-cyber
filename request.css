@@ -12,7 +12,7 @@ body{
 }
 @media (max-widht: 768px){
     .body{
-        height: 100dvh;
+        height: 70dvh;
     }
 }
 li{
