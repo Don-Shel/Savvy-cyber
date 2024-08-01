@@ -6,7 +6,6 @@
 }
 body{
     background-color: #3d5a80;
-    width: 90%;
 }
 
 li{
@@ -140,12 +139,14 @@ header{
     .dropdown_menu{
         display: block;
     }
+}
+@media (max-width: 768px){
     .navbar{
-         width: 93.5%;
+         width: 79%;
     }
     body{
         overflow-x: hidden;
-        width: 105%;
+        width: 80%;
 }
 
 @media (max-width: 576px){
