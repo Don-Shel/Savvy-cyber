@@ -7,7 +7,7 @@ const Component = () => {
         <>
             {breakpoint === 0 && <div class="navbar"></div>}
             {breakpoint === 1 && <section classs="hero"></section>}
-            {breakpoint === 2 && <article></article>>}
+            {breakpoint === 2 && <article></article>}
             {breakpoint === 3 && <div class="footer-container"></div>}
         </>
     );
