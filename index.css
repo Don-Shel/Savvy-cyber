@@ -100,7 +100,7 @@ header{
 }
 
 .dropdown_menu.open{
-    height: 70px;
+    height: 250px;
 }
 
 .dropdown_menu li{
@@ -140,6 +140,12 @@ header{
     .dropdown_menu{
         display: block;
     }
+    .navbar{
+         width: 93.5%;
+    }
+    body{
+        overflow-x: hidden;
+        width: 105%;
 }
 
 @media (max-width: 576px){
