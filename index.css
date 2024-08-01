@@ -6,7 +6,7 @@
 }
 body{
     background-color: #3d5a80;
-    height: 100vh;
+    
 }
 
 li{
@@ -29,7 +29,7 @@ li{
 /* header */
 header{
     position: relative;
-    padding: 0 .3rem;
+    padding: 0;
     z-index: 100;
 }
 .navbar{
